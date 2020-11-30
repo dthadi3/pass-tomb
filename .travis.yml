@@ -1,6 +1,10 @@
 dist: xenial
 sudo: required
 
+arch:
+    - AMD64
+    - ppc64le
+
 language: bash
 
 env:
